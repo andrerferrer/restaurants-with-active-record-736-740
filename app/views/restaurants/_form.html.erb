@@ -1,0 +1,12 @@
+<%# partial view
+because it starts with underscore %>
+
+<%= form_for restaurant_in_the_partial do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :address %>
+  <%= f.text_field :address %>
+  <%= f.label :rating %>
+  <%= f.number_field :rating %>
+  <%= f.submit %>
+<% end %>

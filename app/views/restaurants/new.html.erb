@@ -1,0 +1,14 @@
+<h2>Create a new Restaurant</h2>
+
+<%= render 'form', restaurant_in_the_partial: @restaurant %>
+
+<%#
+<form class="new_restaurant" id="new_restaurant" action="/restaurants" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Yt1Sin7_VDde4TLyp09o5I2iKEfZD2NKerHKMZJkEQ4uMCsemuz34JML73p4O_2SWofCALjwm3yjywQhVWanQQ">
+  <label for="restaurant_name">Name</label>
+  <input type="text" name="restaurant[name]" id="restaurant_name">
+  <label for="restaurant_address">Address</label>
+  <input type="text" name="restaurant[address]" id="restaurant_address">
+  <label for="restaurant_rating">Rating</label>
+  <input type="number" name="restaurant[rating]" id="restaurant_rating">
+  <input type="submit" name="commit" value="Create Restaurant" data-disable-with="Create Restaurant">
+</form> %>
